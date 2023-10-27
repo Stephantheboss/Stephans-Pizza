@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+#menu {
+    border: 0px solid #f00;
+    padding: 10px;
+}
+
+.link {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffffff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 4px;
+    transition: 0.5s all linear;
+}
+
+.link:hover {
+    background-color: navy;
+    color: #ffffff;
+}
+
+#banner {
+    height: 500px;
+    background-image: url(../images/pizza-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+/* shoutout */
+#shoutout-container {
+    height: 450px;
+    display: flex;
+   
+
+}
+
+#shoutout-container .shoutout-1 {
+    height: 100px;
+    flex: 1;
+    height: 100%;
+    background-image: url(../images/galleryboxone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#shoutout-container .shoutout-2 {
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  
+}
+#shoutout-container .shoutout-2 div{
+    border: 1px solid green;
+    border-radius: 8px;
+    padding: 8px 24px;
+    background-color: #1877f2;
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .5s ease-in-out;
+    
+}
+#shoutout-container .shoutout-2 div:hover{
+    background-color: #000;
+}
+
+/* Footer contaienr */
